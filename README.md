@@ -1,30 +1,16 @@
-# Blazor WebAssemble Authentication from Google
+# Blazor WebAssembly Authentication with ASP.NET Core Identity
 
-<img src="https://www.yogihosting.com/wp-content/uploads/2024/06/Blazor-webassemble-google-authentication.png" alt="Blazor WebaAsemble Google Authentication"  title="Blazor WebaAsemble Google Authentication">
+<img src="https://www.yogihosting.com/wp-content/uploads/2024/07/Blazor-webassembly-authentication-aspnet-core-identity.png" alt="Blazor WebaAsemble Authentication ASP.NET Core Identity"  title="Blazor WebaAsemble Authentication ASP.NET Core Identity">
 
-We are going to implement Authentication from Google feature in a  Blazor WebAssembly app (also known as Google OAuth authentication). We will also implement Oauth 2.0 and JWT Tokens for authentication purpose. The complete tutorial is provided at - <a href="https://www.yogihosting.com/blazor-webassembly-google-authentication/">Blazor WebAssemble Authentication from Google</a>.
-
-<img src="https://www.yogihosting.com/wp-content/uploads/2024/06/Blazor-webassemble-google-authentication.png" alt="Blazor WebaAsemble Google Authentication"  title="Blazor WebaAsemble Google Authentication">
+Blazor WebAssembly apps can be secured with ASP.NET Core Identity. We can provide login and logout feature for users through Identity so that only authenticated users are allowed to access the Blazor WebAssembly app.The complete tutorial is provided at - <a href="https://www.yogihosting.com/blazor-webassembly-authentication-aspnet-core-identity/">Blazor WebAssembly Authentication with ASP.NET Core Identity</a>.
 
 # Features
-1. Create Blazor WebAssembly app
-2. Create Login and Authentication feature in the app
-3. Create project in Google Cloud Console
-4. Configuring  Blazor WebAssembly app
-5. Testing
+1. AuthServer -it’s a server app in ASP.NET Core MVC that will have ASP.NET Core Identity implemented in it. It will allow Blazor WebAssembly app to perform authentication feature by calling login endpoints. On successful login an Identity Cookie is stored for the client.
+2. BWClient – it’s a client app in  Blazor WebAssembly. It’s a frontend app through which user can perform  authentication process. This client app calls the server app’s endpoints to perform login, login, registration and other tasks.
 
-# User Interface
-Here we can perform the Log In procedure through our Google Accounts.
+The whole working process is explained in the below image:
 
-<img src="https://www.yogihosting.com/wp-content/uploads/2024/06/blazor-google-login.png" alt="Google Log in"  title="Google Log in">
-
-Next we will see Google OAuth Login Screen.
-
-<img src="https://www.yogihosting.com/wp-content/uploads/2024/06/google-oauth-sign-in.png" alt="Google OAuth Login Screen"  title="Google OAuth Login Screen">
-
-On successful login we are authenticated by the app.
-
-<img src="https://www.yogihosting.com/wp-content/uploads/2024/06/blazor-webassembly-google-login.png" alt="Google Log in"  title="Google Log in">
+<img src="https://www.yogihosting.com/wp-content/uploads/2024/07/blazor-wasm-authentication-aspnet-core-identity.png" alt="Blazor wasm Authentication ASP.NET Core identity"  title="Blazor wasm Authentication ASP.NET Core identity">
 
 ## Support
 
