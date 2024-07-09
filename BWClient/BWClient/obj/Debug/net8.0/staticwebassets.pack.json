@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Avita\\Desktop\\CA\\BWClient\\BWClient\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\Avita\\Desktop\\CA\\BWClient\\BWClient\\obj\\Debug\\net8.0\\compressed\\5p107sspvb.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\Avita\\Desktop\\CA\\BWClient\\BWClient\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BWClient.styles.css",
+      "PackagePath": "staticwebassets\\BWClient.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\Avita\\Desktop\\CA\\BWClient\\BWClient\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\Avita\\Desktop\\CA\\BWClient\\BWClient\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Avita\\Desktop\\CA\\BWClient\\BWClient\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Avita\\Desktop\\CA\\BWClient\\BWClient\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\Avita\\Desktop\\CA\\BWClient\\BWClient\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\Avita\\Desktop\\CA\\BWClient\\BWClient\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Avita\\Desktop\\CA\\BWClient\\BWClient\\wwwroot\\sample-data\\weather.json",
+      "PackagePath": "staticwebassets\\sample-data\\weather.json"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.BWClient.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.BWClient.props",
+      "PackagePath": "build\\BWClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.BWClient.props",
+      "PackagePath": "buildMultiTargeting\\BWClient.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.BWClient.props",
+      "PackagePath": "buildTransitive\\BWClient.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
